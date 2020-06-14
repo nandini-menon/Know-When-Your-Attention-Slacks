@@ -18,17 +18,17 @@ def split_train_test(file_name, label):
     train_label = label * len(train_df.index)
     train_df = train_df.assign(Label=pd.Series(train_label).values)
     if os.path.isfile(training_set_file):
-        train_df.to_csv(training_set_file, mode='a', header=False)
+        train_df.to_csv(training_set_file, mode='a', header=False, index=False)
     else:
-        train_df.to_csv(training_set_file)
+        train_df.to_csv(training_set_file, index=False)
 
     test_df = shuffled_df.iloc[split_val:]
     test_label = label * len(test_df.index)
     test_df = test_df.assign(Label=pd.Series(test_label).values)
     if os.path.isfile(test_set_file):
-        test_df.to_csv(test_set_file, mode='a', header=False)
+        test_df.to_csv(test_set_file, mode='a', header=False, index=False)
     else:
-        test_df.to_csv(test_set_file)
+        test_df.to_csv(test_set_file, index=False)
 
     print(f'{file_name} Done!')
 
