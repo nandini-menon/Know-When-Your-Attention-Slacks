@@ -154,4 +154,18 @@ python model_4.py
 ```
 After this program finishes execution, the model will be saved as `model_4.h5` to the `src/neural-network/model_4` folder
 
-The rest of this README.md will be completed later :wink:
+## Making Predictions
+
+As of now, this is what the code for making predictions does:-
+1. Samples random rows from `test_set.csv`
+2. Predicts the output for each row
+3. Shows the predictions alongside the actual output
+4. Shows the accuracy
+
+To run this program, execute the following command from the `src\neural_network` folder
+```
+python make_prediction.py
+```
+
+
+> More classifiers will be added later and a comparison will be done to know which method works best :smile:
