@@ -4,5 +4,3 @@ Lib
 Scripts
 pyvenv.cfg
 ui
-src/neural_network/model_3/model_class.py
-src/neural_network/model_4/model_4_class.py
