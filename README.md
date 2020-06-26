@@ -72,100 +72,12 @@ After running this program, the training set will be stored in `data/training_se
 
 > Note: Before running `split_train_test.py`, please make sure that there are no files named `training_set.csv` and `test_set.csv` in the folder `data`. If these files exist, then the data that you are processing will be appended at the end of these files.
 
-## Building the Model
+## Classification
 
-All models built have 21 nodes in the input layer (corresponding to the 21 columns in input data) and 1 node in the output layer which gives an output of:-
-* 0 - meaning the person is not attentive
-* 1 - meaning the person is attentive
+As of now, the following classifiers have been implemented:-
+* [Neural Network](src/neural_network/README.md)
+* [Naive Bayes Classifier](src/naive_bayes_classifier)
 
-Four models have been built each with difference in the number of hidden layers and the nodes in each hidden layer:-
-
-### Model 1
-
-| **Hidden Layer** | **No. of nodes** |
-|:----------------:|:----------------:|
-|         1        |        11        |
-
-**Accuracy**: 74.9%
-
-#### To build this model
-
-Execute the following commands from the project folder:-
-```
-cd src/neural_network/model_1
-python model_1.py
-```
-After this program finishes execution, the model will be saved as `model_1.h5` to the `src/neural-network/model_1` folder
-
-## Model 2
-
-| **Hidden Layer** | **No. of nodes** |
-|:----------------:|:----------------:|
-|         1        |        21        |
-|         2        |        10        |
-|         3        |         5        |
-
-**Accuracy**: 75.8%
-
-#### To build this model
-
-Execute the following commands from the project folder:-
-```
-cd src/neural_network/model_2
-python model_2.py
-```
-After this program finishes execution, the model will be saved as `model_2.h5` to the `src/neural-network/model_2` folder
-
-## Model 3
-
-| **Hidden Layer** | **No. of nodes** |
-|:----------------:|:----------------:|
-|         1        |        30        |
-|         2        |        20        |
-|         3        |        10        |
-|         4        |         5        |
-
-**Accuracy**: 76.6%
-
-#### To build this model
-
-Execute the following commands from the project folder:-
-```
-cd src/neural_network/model_3
-python model_3.py
-```
-After this program finishes execution, the model will be saved as `model_3.h5` to the `src/neural-network/model_3` folder
-
-## Model 4
-
-| **Hidden Layer** | **No. of nodes** |
-|:----------------:|:----------------:|
-|         1        |        21        |
-|         2        |        11        |
-
-**Accuracy**: 75.7%
-
-#### To build this model
-
-Execute the following commands from the project folder:-
-```
-cd src/neural_network/model_4
-python model_4.py
-```
-After this program finishes execution, the model will be saved as `model_4.h5` to the `src/neural-network/model_4` folder
-
-## Making Predictions
-
-As of now, this is what the code for making predictions does:-
-1. Samples random rows from `test_set.csv`
-2. Predicts the output for each row
-3. Shows the predictions alongside the actual output
-4. Shows the accuracy
-
-To run this program, execute the following command from the `src\neural_network` folder
-```
-python make_prediction.py
-```
-
+To build these classifiers and make predictions, head on to the respective folders and checkout the README
 
 > More classifiers will be added later and a comparison will be done to know which method works best :smile:
