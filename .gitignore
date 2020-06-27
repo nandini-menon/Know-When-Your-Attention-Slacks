@@ -4,6 +4,5 @@ Lib
 Scripts
 pyvenv.cfg
 ui
-src/support_vector_machine
 src/random_forest
 src/decision_tree
