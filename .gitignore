@@ -4,5 +4,6 @@ Lib
 Scripts
 pyvenv.cfg
 ui
-src/random_forest
-src/decision_tree
+share
+documentation
+src/decision_tree/plot_tree.py
