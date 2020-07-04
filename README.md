@@ -79,6 +79,7 @@ As of now, the following classifiers have been implemented:-
 * [Naive Bayes Classifier](src/naive_bayes_classifier)
 * [Logistic Regression Classifier](src/logistic_regression)
 * [Support Vector Machine](src/support_vector_machine)
+* [Decision Tree](src/decsion_tree)
 
 To build these classifiers and make predictions, head on to the respective folders and checkout the README
 
