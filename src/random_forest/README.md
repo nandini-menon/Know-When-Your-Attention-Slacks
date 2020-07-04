@@ -21,6 +21,8 @@ To run this program, execute the following command from the current folder:-
 python make_predictions.py
 ```
 
+> **Note:** If you haven't built the model, the model `random_forest.sav` can be downloaded from [here](https://drive.google.com/drive/folders/1ENGLS1iYebGZJKPndEneSfW3ZhvUABnz?usp=sharing). Please note that the size of this file is `4.87 GB`.
+
 ## Output Screenshot
 
 ![Random Forest Classifier - Screenshot of Output](screenshot_1.png?raw=true "Random Forest Classifier - Screenshot of Output")
