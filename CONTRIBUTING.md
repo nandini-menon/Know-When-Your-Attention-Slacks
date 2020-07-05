@@ -1,22 +1,18 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to 
-make via issue, slack or any other method with the owners 
-of this repository before making a change. 
+When contributing to this repository, please first discuss the change you wish to make via issue, slack or any other method with the owners of this repository before making a change.
 
 ## Pull Request Process
 
 ### 1. Explore
 
-If there is some issue or bug or enhancements, you are interested in and no one else is working 
-on the issue, you may take it up (just leave a comment on the issue).  
+If there is some issue or bug or enhancements, you are interested in and no one else is working on the issue, you may take it up (just leave a comment on the issue).
 
 **Make sure you create an issue before making major code changes or adding new features**
 
 ### 2. Fork & create a branch
 
-If this is something you think you can fix, then create a branch with a 
-descriptive name.  
+If this is something you think you can fix, then create a branch with a descriptive name.
 
 The core code for getting the website up and running should be made against master.
 
@@ -28,8 +24,7 @@ git checkout -b 13-add-xyz-feature
 
 ### 3. Implement your fix or feature
 
-At this point, you're ready to make your changes! Feel free to ask for help;
-everyone is a beginner at first :smile_cat:  
+At this point, you're ready to make your changes! Feel free to ask for help; everyone is a beginner at first :smile_cat:
 
 ### Note 1
 
@@ -41,23 +36,21 @@ everyone is a beginner at first :smile_cat:
 
 ### 4. Test for all the checks
 
-Your patch should follow the same conventions & pass the same code quality
-checks as the rest of the project.  
+Your patch should follow the same conventions & pass the same code quality checks as the rest of the project.
 
 Auto-formatting can be done directly via your text editor. [See how auto-formatting can be done](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
 
 ### 5. Make a Pull Request
 
-At this point, you should switch back to your master branch and make sure it's
-up to date with Active Admin's master branch:
+At this point, you should switch back to your master branch and make sure it's up to date with Active Admin's master branch:
 
 ```sh
-git remote add upstream git@github.com:fisatsdc/fsdc.git
+git remote add upstream https://github.com/nandini-menon/Know-When-Your-Attention-Slacks.git
 git checkout master
 git pull upstream master
 ```
 
-Getting a `Permission denied (publickey)` error? [Follow this guide to fix it.](https://stackoverflow.com/questions/2643502/how-to-solve-permission-denied-publickey-error-when-using-git)  
+Getting a `Permission denied (publickey)` error? [Follow this guide to fix it.](https://stackoverflow.com/questions/2643502/how-to-solve-permission-denied-publickey-error-when-using-git)
 
 Then update your feature branch from your local copy of master, and push it!
 
@@ -67,12 +60,10 @@ git rebase master
 git push --set-upstream origin 13-add-xyz-feature
 ```
 
-Finally, go to GitHub and make a Pull Request :D
+Finally, go to GitHub and make a Pull Request :grin:
 
 ### Our Responsibilities
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.  
+Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
 No maintainer shall make changes that were either not discussed with others or without issues raised.

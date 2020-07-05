@@ -72,7 +72,7 @@ After running this program, the training set will be stored in `data/training_se
 
 > **Note:** Before running `split_train_test.py`, please make sure that there are no files named `training_set.csv` and `test_set.csv` in the folder `data`. If these files exist, then the data that you are processing will be appended at the end of these files.
 
-> After cloning the repo, if `training_set.csv` and `test_set.csv` is not downloaded along with it, you can get them from [here](https://drive.google.com/drive/folders/1ENGLS1iYebGZJKPndEneSfW3ZhvUABnz?usp=sharing). Since they are large files, they have been stored with [git-lfs](https://git-lfs.github.com/)
+> After cloning the repo, if `training_set.csv` and `test_set.csv` is not downloaded along with it, you can get them from [here](https://drive.google.com/drive/folders/1ENGLS1iYebGZJKPndEneSfW3ZhvUABnz?usp=sharing). Since they are large files, they have been stored with [git-lfs](https://git-lfs.github.com/).
 
 ## Classification
 
@@ -86,4 +86,8 @@ As of now, the following classifiers have been implemented:-
 
 To build these classifiers and make predictions, head on to the respective folders and checkout the README
 
-> More classifiers will be added later and a comparison will be done to know which method works best :smile:
+## Evaluation of Classifier
+
+To see how the above classifiers can be evaluated, head on to the [`src`](src) folder
+
+> For any bugs or enhancement requests, please create an issue :smile:

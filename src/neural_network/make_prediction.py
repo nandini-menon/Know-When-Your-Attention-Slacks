@@ -23,7 +23,7 @@ def sample_dataset():
 
 
 def get_predictions(X_new, Y_new):
-    trained_model = keras.models.load_model(f'model_3/model_3.h5')
+    trained_model = keras.models.load_model(f'model_3/model_3')
     result = (trained_model.predict(X_new) > 0.5).astype("int32")
 
     print("Prediction\t Actual Result")
